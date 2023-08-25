@@ -26,7 +26,6 @@ export default function RootLayout({children}) {
 
             <Link className="pr-1" href="/suneditor">suneditor</Link>
 
-            <Link className="pr-1" href="/quill">quill</Link>
 
             <Link className="pr-1" href="/handlechick">handlechick</Link>
 
