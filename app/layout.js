@@ -1,6 +1,10 @@
 import './globals.css'
 import {Inter} from 'next/font/google'
 import Link from 'next/link'
+import '@fontsource/roboto/300.css';
+// import '@fontsource/roboto/400.css';
+// import '@fontsource/roboto/500.css';
+// import '@fontsource/roboto/700.css';
 
 const inter = Inter({subsets: ['latin']})
 
@@ -16,18 +20,18 @@ export default function RootLayout({children}) {
         <html lang="en">
         <body className={inter.className}>
         <nav>
-            <Link className="pr-5" href="/tiptap">tiptap</Link>
+            <Link className="pr-1" href="/tiptap">tiptap</Link>
 
-            <Link className="pr-5" href="/lexical">lexical</Link>
+            <Link className="pr-1" href="/reactfrom">reactfrom</Link>
 
-            <Link className="pr-5" href="/suneditor">suneditor</Link>
+            <Link className="pr-1" href="/suneditor">suneditor</Link>
 
-            <Link className="pr-5" href="/quill">quill</Link>
+            <Link className="pr-1" href="/quill">quill</Link>
 
-            <Link className="pr-5" href="/handlechick">handlechick</Link>
+            <Link className="pr-1" href="/handlechick">handlechick</Link>
 
-            <Link className="pr-5" href="/fromtodo">fromtodo</Link>
-            <Link className="pr-5" href="/from">from</Link>
+            <Link className="pr-1" href="/fromtodo">fromtodo</Link>
+            <Link className="pr-1" href="/from">from</Link>
             <Link href="/">home</Link>
         </nav>
         {children}</body>
